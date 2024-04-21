@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
-export default function page() {
+export default function Page() {
   const [categories, setCategories] = useState([]);
   const [wallpapers, setWallpapers] = useState({
     name: "",

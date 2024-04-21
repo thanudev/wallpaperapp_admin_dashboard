@@ -42,7 +42,7 @@ export default function Home() {
     <main className="p-8">
       <Link
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10  w-full"
-        href={"/add_wallpapers"}
+        href={"/add_wallpaper"}
       >
         Add Wallpaper
       </Link>
